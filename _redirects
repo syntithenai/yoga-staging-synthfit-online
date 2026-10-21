@@ -1,0 +1,3 @@
+# Web builds use HashRouter, so deep links never reach the server; this fallback only
+# covers stray paths (old bookmarks, share links without #). Static files win over it.
+/*    /index.html   200
